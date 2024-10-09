@@ -1,5 +1,3 @@
-import Opps from "../../app/pages/opps"
-
 export default function Search() {
     return (
        <div className="bg-gradient-to-t from-[#5D40D6] to-[#AC99FF] max-w-[800px] m-auto rounded-[10px] overflow-hidden mt-[50px] shadow-2xl shadow-[#5C94FF45]">
