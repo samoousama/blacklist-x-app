@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className="pt-[80px]">
         <h3 className="text-center text-white font-bold text-[36px] sm:text-[15px] md:text-[16px]">Read verified & vetted <span className="line-through">negative reviews.</span> </h3>
-        <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-10">
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-2">
             <div className="text-center">
                 <div className="font-extrabold sm:text-[30px] text-[90px] leading-[70px] md:text-4xl [text-wrap:balance] bg-clip-text text-[#fff] ">Know the <span className="text-indigo-500 inline-flex flex-col h-[calc(theme(fontSize.8xl)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
                     <ul className="block animate-text-slide text-left leading-tight [&amp;_li]:block">
