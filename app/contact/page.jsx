@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../img/logo.png"
+import Logo from "../img/logo.svg"
 import Link from 'next/link';
 
 
@@ -8,15 +8,17 @@ const Contact = () => {
     return (
         <div className="min-h-screen bg-[url('img/sec-bg.png')] bg-no-repeat bg-cover sm:px-[10px] md:px-[10px]">
             <div className="pt-[30px] text-center m-auto flex sm:block items-center justify-center relative px-[40px] sm:pl-[0px] sm:pt-[20px]">
+            <Link href="/">
                 <Image
-                src={Logo}
-                width={167}
-                height={43}
-                alt="Logo"
+                    src={Logo}
+                    width={167}
+                    height={43}
+                    alt="Logo"
                 />
-                <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
-                    <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
-                </div>
+            </Link>
+            <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
+                <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
+            </div>
             </div>
            <div className="pt-[40px]">
                 <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-10">

@@ -1,7 +1,7 @@
 export default function Search() {
     return (
-       <div className="bg-gradient-to-t from-[#5D40D6] to-[#AC99FF] max-w-[800px] m-auto rounded-[10px] overflow-hidden mt-[50px] shadow-2xl shadow-[#5C94FF45]">
-        <div className="py-[30px] px-[50px] bg-gradient-to-t from-[#021531] to-[#143566] m-[2px] rounded-[10px] sm:px-[15px]">
+        <div className="max-w-[785px] sm:w-full m-auto rounded-[10px] overflow-hidden mt-[50px] shadow-2xl shadow-[#5C94FF45]">
+          <div className="py-[30px] px-[50px] bg-[url('img/search-bg.png')] bg-no-repeat bg-contain sm:bg-cover sm:px-[15px] sm:bg-[length:100%_100%]">
             <div className="text-center text-white font-bold">I want to read review about:</div>        
             <form className="max-w-full mx-auto mt-[20px]" action="opps">   
                 <div className="relative">
