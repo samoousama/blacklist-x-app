@@ -4,7 +4,7 @@ import Avatar from "../../app/img/testimonials.png"
 export default function Review() {
     return (
 
-        <div className="max-w-[900px] m-auto mt-[140px] pb-[50px]">
+        <div className="max-w-[900px] m-auto mt-[110px] pb-[50px]">
            <div className="grid grid-cols-3 sm:grid-cols-1 gap-4">
             <div className="border border-[#9999992E] rounded-[10px] overflow-hidden shadow-2xl shadow-[#000000D4] hover:border-[#efd9d92e] hover:translate-y-[-10px] transition-all">
                 <div className="bg-gradient-to-t from-[#0F0F0F] to-[#141414] p-[20px] rounded-[10px]">

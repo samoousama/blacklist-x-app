@@ -16,7 +16,7 @@ const Opps = () => {
           />
         </Link>
           <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
-              <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
+              <Link href="contact" className="text-[#E2E2E2] underline hover:font-bold hover:text-[#BDBDBD] transition-all">Write a review</Link>
           </div>
       </div>
       <div className="pt-[40px]">

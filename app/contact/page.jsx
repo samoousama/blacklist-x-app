@@ -16,9 +16,6 @@ const Contact = () => {
                     alt="Logo"
                 />
             </Link>
-            <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
-                <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
-            </div>
             </div>
            <div className="pt-[40px]">
                 <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-10">
@@ -31,14 +28,14 @@ const Contact = () => {
               <div className="bg-[url('img/search-bg.png')] bg-no-repeat bg-cover sm:bg-cover sm:px-[15px] sm:bg-[length:100%_100%] rounded-[15px] px-[20px] py-[20px]">
                 <div className="grid grid-cols-2 sm:grid-cols-1 gap-[20px]"> 
                     <div className="text-left">
-                        <input type="text" placeholder="Full Name" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none" />
+                        <input type="text" placeholder="Full Name" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]" />
                     </div>  
                     <div className="text-left">
-                        <input type="email" placeholder="Email" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none" />
+                        <input type="email" placeholder="Email" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]" />
                     </div>  
                 </div>   
                 <div className="text-left mt-[30px]">
-                    <textarea placeholder="Write a review" className="w-full h-[150px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none"></textarea>                       
+                    <textarea placeholder="Write a review" className="w-full h-[150px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]"></textarea>                       
                 </div>  
                 <div className="text-center mt-[30px]">
                     <button type="submit" className="bg-gradient-to-t from-[#7E67D9] hover:to-[#280d91] to-[#492EB4] transition duration-150 ease-in-out text-white sm:relative sm:right-[0px] sm:m-auto sm:block sm:w-full sm:mt-[20px] m-auto h-[48px] focus:ring-0 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-[16px] sm:text-[14px] px-16 sm:px-[12px]">Submit</button>    

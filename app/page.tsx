@@ -17,7 +17,7 @@ export default function Home() {
           />
         </Link>
           <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
-              <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
+              <Link href="contact" className="text-[#E2E2E2] underline hover:font-bold hover:text-[#BDBDBD] transition-all">Write a review</Link>
           </div>
       </div>
       <div className="pt-[50px]">
@@ -44,7 +44,7 @@ export default function Home() {
       <div>
         <Search/>
         <div className="text-center py-[20px]">
-           <Link href="contact" className="text-[#E2E2E2] underline tracking-[1px]">Write a review</Link>
+           <Link href="contact" className="text-[#E2E2E2] underline tracking-[1px] hover:font-bold hover:text-[#BDBDBD] transition-all">Write a review</Link>
         </div>
       </div>
       <div>
