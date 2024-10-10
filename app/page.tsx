@@ -17,9 +17,9 @@ export default function Home() {
           />
         </Link>
       </div>
-      <div className="pt-[80px]">
+      <div className="pt-[50px]">
         <h3 className="text-center text-white font-bold text-[36px] sm:text-[15px] md:text-[16px]">Read verified & vetted <span className="line-through">negative reviews.</span> </h3>
-        <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-2">
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6">
             <div className="text-center">
                 <div className="font-extrabold sm:text-[30px] text-[90px] leading-[70px] sm:leading-[50px] md:text-4xl [text-wrap:balance] bg-clip-text text-[#fff] ">Know the <span className="text-indigo-500 inline-flex flex-col h-[calc(theme(fontSize.8xl)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
                     <ul className="block animate-text-slide text-left leading-tight [&amp;_li]:block">
@@ -51,10 +51,10 @@ export default function Home() {
                 </span></div>                
             </div>
         </div>
-        <div className="text-center text-white text-[32px] font-[700] sm:text-[15px] md:text-[16px]">
+        <div className="text-center text-white text-[32px] font-[700] sm:text-[15px] md:text-[16px] mt-[-5px]">
           you can and cannot trust.
         </div>
-        <p className="text-[#BDBDBD] max-w-[690px] m-auto text-center pt-[40px] sm:text-[14px] sm:max-w-[100%]">You spend a ton of time & money making plans to have fun with your friends and family, don’t let it get ruined by a scam or a downright horrible experience. Due diligence of any experience just one search away. Read real reviews, write real reviews.</p>
+        <p className="text-[#BDBDBD] max-w-[690px] m-auto text-center pt-[30px] sm:text-[14px] sm:max-w-[100%]">You spend a ton of time & money making plans to have fun with your friends and family, don’t let it get ruined by a scam or a downright horrible experience. Due diligence of any experience just one search away. Read real reviews, write real reviews.</p>
       </div>
       <div>
         <Search/>
