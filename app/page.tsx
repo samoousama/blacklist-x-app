@@ -7,8 +7,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="min-h-screen bg-[url('img/sec-bg.png')] bg-no-repeat bg-cover sm:px-[10px] md:px-[10px]">
-      <div className="pt-[30px] text-center flex justify-center items-center">
-        <Link href="">
+       <div className="pt-[30px] text-center m-auto flex sm:block items-center justify-center relative px-[40px] sm:pl-[0px] sm:pt-[20px]">
+       <Link href="/">
           <Image
             src={Logo}
             width={167}
@@ -16,6 +16,9 @@ export default function Home() {
             alt="Logo"
           />
         </Link>
+          <div className="text-right absolute right-[40px] top-[35px] sm:right-[10px] sm:top-[30px]">
+              <Link href="contact" className="text-[#E2E2E2] underline">Write a review</Link>
+          </div>
       </div>
       <div className="pt-[50px]">
         <h3 className="text-center text-white font-bold text-[36px] sm:text-[15px] md:text-[16px]">Read verified & vetted <span className="line-through">negative reviews.</span> </h3>
@@ -25,28 +28,10 @@ export default function Home() {
                     <ul className="block animate-text-slide text-left leading-tight [&amp;_li]:block">
                         <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
                         <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
+                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">eCommerce</li>
                         <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
                         <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">eCommerce</li>
-                        <li aria-hidden="true" className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Finance</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">eCommerce</li>
-                        <li aria-hidden="true" className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Finance</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">eCommerce</li>
-                        <li aria-hidden="true" className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Finance</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
-                        <li className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">eCommerce</li>
-                        <li aria-hidden="true" className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Finance</li>
+                        <li aria-hidden="true" className="bg-gradient-to-t from-[#CFC3FF] to-[#492EB4] text-transparent bg-clip-text">Experience</li>
                     </ul>
                 </span></div>                
             </div>
@@ -58,6 +43,9 @@ export default function Home() {
       </div>
       <div>
         <Search/>
+        <div className="text-center py-[20px]">
+           <Link href="contact" className="text-[#E2E2E2] underline tracking-[1px]">Write a review</Link>
+        </div>
       </div>
       <div>
         <Review/>
