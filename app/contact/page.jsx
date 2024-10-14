@@ -28,14 +28,14 @@ const Contact = () => {
               <div className="bg-[url('img/search-bg.png')] bg-no-repeat bg-cover sm:bg-cover sm:px-[15px] sm:bg-[length:100%_100%] rounded-[15px] px-[20px] py-[20px]">
                 <div className="grid grid-cols-2 sm:grid-cols-1 gap-[20px]"> 
                     <div className="text-left">
-                        <input type="text" placeholder="Full Name" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]" />
+                        <input type="text" placeholder="Full Name" className="w-full h-[50px] text-[#474747] placeholder-[#fff] border border-[#ffffff45] rounded-lg bg-[#000000] focus:border-none px-3" />
                     </div>  
                     <div className="text-left">
-                        <input type="email" placeholder="Email" className="w-full h-[50px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]" />
+                        <input type="email" placeholder="Email" className="w-full h-[50px] text-[#474747] placeholder-[#fff] border border-[#ffffff45] rounded-lg bg-[#000000] focus:border-none px-3" />
                     </div>  
                 </div>   
                 <div className="text-left mt-[30px]">
-                    <textarea placeholder="Write a review" className="w-full h-[150px] border border-[#fff] border-b-1 border-t-0 border-l-0 border-r-0 bg-transparent text-white placeholder-[#fff] focus:outline-none focus:border-[#605e5e]"></textarea>                       
+                    <textarea placeholder="Write a review" className="w-full h-[150px] text-[#474747] placeholder-[#fff] border border-[#ffffff45] rounded-lg bg-[#000000] focus:border-none px-3 py-3"></textarea>                       
                 </div>  
                 <div className="text-center mt-[30px]">
                     <button type="submit" className="bg-gradient-to-t from-[#7E67D9] hover:to-[#280d91] to-[#492EB4] transition duration-150 ease-in-out text-white sm:relative sm:right-[0px] sm:m-auto sm:block sm:w-full sm:mt-[20px] m-auto h-[48px] focus:ring-0 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-[16px] sm:text-[14px] px-16 sm:px-[12px]">Submit</button>    
